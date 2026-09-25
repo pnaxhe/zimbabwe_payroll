@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
     "frappe",
+    "erpnext"
 ]
 authors = [
     {name = "CyteERP Systems", email = "support@cyteerp.com"}
@@ -17,3 +18,7 @@ build-backend = "flit_core.buildapi"
 
 [tool.bench]
 app = "zimbabwe_payroll"
+
+[tool.bench.frappe-dependencies]
+frappe = "~15.0.0"
+erpnext = "~15.0.0"
