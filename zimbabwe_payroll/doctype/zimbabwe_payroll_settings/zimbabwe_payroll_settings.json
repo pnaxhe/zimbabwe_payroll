@@ -1,0 +1,19 @@
+{
+  "doctype": "DocType",
+  "name": "Zimbabwe Payroll Settings",
+  "module": "Zimbabwe Payroll",
+  "issingle": 1,
+  "editable_grid": 1,
+  "fields": [
+    {"fieldname": "nssa_insurable_ceiling_usd", "label": "NSSA Insurable Earnings Ceiling (USD)", "fieldtype": "Currency", "default": "700"},
+    {"fieldname": "default_apwcs_rate", "label": "Default APWCS/WCIF Rate (%)", "fieldtype": "Percent", "default": "0"},
+    {"fieldname": "aids_levy_rate", "label": "AIDS Levy Rate (%)", "fieldtype": "Percent", "default": "3"},
+    {"fieldname": "zimdef_rate", "label": "ZIMDEF Rate (%)", "fieldtype": "Percent", "default": "1"},
+    {"fieldname": "standards_rate", "label": "Standards Development Levy Rate (%)", "fieldtype": "Percent", "default": "0.5"},
+    {"fieldname": "dual_currency_rate_source", "label": "Dual-Currency Rate Source", "fieldtype": "Data", "default": "Approved payment-date rate"},
+    {"fieldname": "notes", "label": "Statutory Notes", "fieldtype": "Small Text"}
+  ],
+  "permissions": [
+    {"role": "System Manager", "read": 1, "write": 1}
+  ]
+}

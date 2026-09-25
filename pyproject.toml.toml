@@ -1,0 +1,24 @@
+[project]
+name = "zimbabwe_payroll"
+authors = [
+    { name = "CyteERP Systems" },
+]
+description = "Zimbabwe payroll statutory calculations and reports for ERPNext"
+requires-python = ">=3.10"
+readme = "README.md"
+#dynamic = ["version"]
+version = "4.1.0"
+dependencies = []
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.bench.frappe-dependencies]
+frappe = ">=16.0.0,<17.0.0"
+erpnext = ">=16.0.0,<17.0.0"
+
+[tool.ruff]
+line-length = 110
+target-version = "py310"
