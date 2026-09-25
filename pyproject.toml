@@ -1,6 +1,6 @@
 [project]
 name = "zimbabwe_payroll"
-version = "0.0.1"
+version = "0.1.0"
 description = "Zimbabwe payroll statutory calculations and reports for ERPNext"
 readme = "README.md"
 requires-python = ">=3.10"
